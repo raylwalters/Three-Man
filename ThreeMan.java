@@ -54,14 +54,14 @@ public ThreeMan()
 	  {
 		  jt.append("Threeman"+"\n");
 		  jt.append("Social"+"\n");
-		  jt.append("Person to the left drinks"+"\n\n");
+		  jt.append("Person to the left wins"+"\n\n");
 	
 	  }
 	  else if (die1 == 4 && die2 == 3 && add == 7)
 	  {
 		  jt.append("Threeman"+"\n");
 		  jt.append("Social"+"\n");
-		  jt.append("Person to the left drinks"+"\n\n");
+		  jt.append("Person to the left wins"+"\n\n");
 	
 	  }
 	  else if (die1 == die2&& die1 == 3|die2 == 3)
@@ -108,11 +108,11 @@ public ThreeMan()
 	  }
 	  else if (add == 7)
 	  {
-		jt.append("Person to the left drinks"+"\n\n");
+		jt.append("Person to the left wins"+"\n\n");
 	  }
 	  else if (add == 11)
 	  {
-		jt.append("Person to the right drinks"+"\n\n");
+		jt.append("Person to the right wins"+"\n\n");
 	  }
 	  else if (die1 == die2)
 	  {
